@@ -1,5 +1,5 @@
 const mysql = require('mysql');
-const inquirer = require('inqirer');
+const inquirer = require('inquirer');
 
 var connection = mysql.createConnection({
     multipleStatements: true,
