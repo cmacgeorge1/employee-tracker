@@ -164,7 +164,7 @@ async function addEmployee() {
         if (err) throw (err);
 
     inquirer
-         .prompt ([{
+        .prompt ([{
             name: "firstName",
             type: "input",
             message: "What is the employee's first name?"
